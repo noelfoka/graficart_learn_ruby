@@ -1,21 +1,4 @@
-=begin
-puts "Entrez votre nom: "
-
-nom = gets.chomp
-
-puts "Salut #{nom} comment allez-vous"
-=end
-
-=begin
-puts "entrez un chiffre"
-chiffre = gets.chomp.to_i
-if chiffre.even?
-    puts "Votre chiffre est paire"
-else
-    puts "Votre chiffre est impaire"
-end
-=end
-
+# conditions complexes
 puts "Entrez un chiffre: "
 
 chiffre = gets.chomp.to_i
