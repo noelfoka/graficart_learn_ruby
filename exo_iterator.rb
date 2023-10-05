@@ -16,3 +16,11 @@ loop do
         break
     end
 end
+
+# each in array
+
+student = ["Joel", "Juliette", "Ismael", "Got"]
+
+student.each do |students|
+    puts "Salut #{students}"
+end
