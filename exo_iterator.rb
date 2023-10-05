@@ -24,3 +24,11 @@ student = ["Joel", "Juliette", "Ismael", "Got"]
 student.each do |students|
     puts "Salut #{students}"
 end
+
+# each key, valuei
+
+Juliette = {age: 23, surnom: "Julie", note: 15}
+puts "les infos sur Juliette:"
+Juliette.each do |key, value|
+    puts " #{key}: #{value}"
+end
