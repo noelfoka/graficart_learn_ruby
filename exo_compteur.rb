@@ -14,4 +14,8 @@ mots.each do |mot|
     frequences[mot] += 1
 end
 
+frequences.each do |mot, count|
+    puts "le mot '#{mot}' apparait #{count} fois"
+end
+
 puts frequences.inspect
