@@ -18,4 +18,8 @@ frequences.each do |mot, count|
     puts "le mot '#{mot}' apparait #{count} fois"
 end
 
+a = frequences.sort_by { |mot, count| count }
+
+print a
+
 puts frequences.inspect
