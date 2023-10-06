@@ -8,14 +8,10 @@ text = "Un homme nourrissait une chevre et un ane. mais la chevre est plus petit
 
 # Organiser les mots pour sortir les mots les plus frequents
 
-frequences = Hash.new()
-mots = text.split(" ")
+frequences = Hash.new(0)
+mots = text.downcase.split(" ")
 mots.each do |mot|
-    if frequences[mot]
-        frequences[mot] += 1
-    else
-        frequences[mot] = 0
-    end
+    frequences[mot] += 1
 end
 
 puts frequences.inspect
