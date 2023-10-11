@@ -16,3 +16,14 @@ end
 
 salutation('salut', 'Jean')
 salutation('Bonjour', 'Joel')
+
+# Nombre indefini de liste
+
+def liste(*noms)
+    puts "Voici ma liste des noms:"
+    noms.each do |nom|
+        puts "- #{nom}"
+    end
+end
+
+liste("Noel", "Ismael", "Igor", "Marcel", "Julie", "Aurelie")
