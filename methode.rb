@@ -11,5 +11,8 @@ end
 puts bonjour('Jean')
 
 def salutation(prefixe, nom)
-    "#{salut} #{Jean}"
+    puts "#{prefixe} #{nom}"
 end
+
+salutation('salut', 'Jean')
+salutation('Bonjour', 'Joel')
